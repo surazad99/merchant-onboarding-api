@@ -27,6 +27,9 @@ npm test                   # unit tests (no services needed)
 docker compose up -d postgres redis
 npm run test:e2e           # integration tests; uses an isolated <DB_NAME>_test database + its own Redis key prefix
 ```
+## Swagger Documents
+
+* Go to /docs to see the swagger api documentation.
 
 ## Roles & object-level rules
 
